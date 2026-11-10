@@ -5,6 +5,7 @@
   "scripts": {
     "demo": "node scripts/try.mjs demo-lodge",
     "try": "node scripts/try.mjs",
+    "share": "node scripts/share.mjs",
     "test": "npm run check",
     "dev": "next dev",
     "build": "next build",

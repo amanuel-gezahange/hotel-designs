@@ -45,3 +45,5 @@ data/
 dist/
 .factory-out/
 .factory-work/
+.netlify/
+.netlify-sites/

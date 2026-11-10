@@ -83,6 +83,22 @@ Done.
 ---
 
 
+## Show it to a customer (put it online)
+
+    npm run share -- hotel-name
+
+The first time it opens your browser to log in to Netlify (free) and asks you to name the site.
+At the end it prints "Deployed to production URL". Send that link to the customer.
+They can swipe through all 15 designs on their own phone.
+
+When the client has chosen a design, put the finished website online:
+
+    npm run share -- hotel-name --final
+
+
+---
+
+
 ## If something goes wrong
 
 **The page is stuck or keeps flickering.**
