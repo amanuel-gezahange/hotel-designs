@@ -1,0 +1,85 @@
+PHOTO CREDITS (sample photos for the demo hotel only)
+
+These photos come from Wikimedia Commons under open licenses that require credit
+(CC BY / CC BY-SA, one CC0). They were resized for the web. Use them to try out the
+designs, but replace them with the real hotel's own photos for any real client.
+
+gallery-5.jpg
+  "Lake Tana, Ethiopia (51642916172).jpg" by Nina R from Africa
+  License: CC BY 2.0
+  Source: https://commons.wikimedia.org/wiki/File:Lake_Tana,_Ethiopia_(51642916172).jpg
+
+hero.jpg
+  "Lake Tana, Ethiopia (51642940047).jpg" by Nina R from Africa
+  License: CC BY 2.0
+  Source: https://commons.wikimedia.org/wiki/File:Lake_Tana,_Ethiopia_(51642940047).jpg
+
+gallery-1.jpg
+  "Lake Tana, Ethiopia (51643739421).jpg" by Nina R from Africa
+  License: CC BY 2.0
+  Source: https://commons.wikimedia.org/wiki/File:Lake_Tana,_Ethiopia_(51643739421).jpg
+
+gallery-3.jpg
+  "Tankwas in Bahir Dar.jpg" by Radosław Botev
+  License: CC BY 3.0 pl
+  Source: https://commons.wikimedia.org/wiki/File:Tankwas_in_Bahir_Dar.jpg
+
+gallery-2.jpg
+  "Blue Nile Falls, Ethiopia (51624069297).jpg" by Nina R from Africa
+  License: CC BY 2.0
+  Source: https://commons.wikimedia.org/wiki/File:Blue_Nile_Falls,_Ethiopia_(51624069297).jpg
+
+about.jpg
+  "Coffee ceremony in Ethiopia 01.jpg" by Fayçal Rezkallah
+  License: CC BY-SA 4.0
+  Source: https://commons.wikimedia.org/wiki/File:Coffee_ceremony_in_Ethiopia_01.jpg
+
+gallery-4.jpg
+  "Veggie combo at Fassil Restaurant.jpg" by StoppedTime
+  License: CC0
+  Source: https://commons.wikimedia.org/wiki/File:Veggie_combo_at_Fassil_Restaurant.jpg
+
+room-honeymoon.jpg
+  "Caravelle Saigon - Signature Studio Room.jpg" by BaonguyenCaravelas
+  License: CC BY-SA 4.0
+  Source: https://commons.wikimedia.org/wiki/File:Caravelle_Saigon_-_Signature_Studio_Room.jpg
+
+room-standard.jpg
+  "Deluxe Suite bedroom.jpg" by PaulPMoroney
+  License: CC BY-SA 4.0
+  Source: https://commons.wikimedia.org/wiki/File:Deluxe_Suite_bedroom.jpg
+
+room-family-2.jpg
+  "Dila Hotel, Kadıköy (IMG 20191211 125638).jpg" by Matti Blume
+  License: CC BY-SA 4.0
+  Source: https://commons.wikimedia.org/wiki/File:Dila_Hotel,_Kad%C4%B1k%C3%B6y_(IMG_20191211_125638).jpg
+
+room-honeymoon-2.jpg
+  "EXECUTIVE ROOM - Teraskita Hotel Makassar.jpg" by Allvin Garamar
+  License: CC BY-SA 4.0
+  Source: https://commons.wikimedia.org/wiki/File:EXECUTIVE_ROOM_-_Teraskita_Hotel_Makassar.jpg
+
+room-standard-2.jpg
+  "Executive Suite bedroom.jpg" by PaulPMoroney
+  License: CC BY-SA 4.0
+  Source: https://commons.wikimedia.org/wiki/File:Executive_Suite_bedroom.jpg
+
+room-family.jpg
+  "Four bed.jpg" by Aishagrawal27
+  License: CC BY-SA 4.0
+  Source: https://commons.wikimedia.org/wiki/File:Four_bed.jpg
+
+room-deluxe.jpg
+  "HABITACION.jpg" by Claudia Cárdenas Ovando
+  License: CC BY-SA 4.0
+  Source: https://commons.wikimedia.org/wiki/File:HABITACION.jpg
+
+room-deluxe-2.jpg
+  "Hotel Room (2081798558).jpg" by Mack Male from Edmonton, AB, Canada
+  License: CC BY-SA 2.0
+  Source: https://commons.wikimedia.org/wiki/File:Hotel_Room_(2081798558).jpg
+
+gallery-6.jpg
+  "Lalibela, collina con vista 05.jpg" by Sailko
+  License: CC BY 3.0
+  Source: https://commons.wikimedia.org/wiki/File:Lalibela,_collina_con_vista_05.jpg

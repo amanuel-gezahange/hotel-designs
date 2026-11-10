@@ -1,0 +1,312 @@
+{
+  "name": "Lake Tana Lodge",
+  "type": "lodge",
+  "tagline": {
+    "en": "Lakeside stay in Bahir Dar",
+    "am": "በባሕር ዳር ዳርቻ የሚገኝ መስተንግዶ"
+  },
+  "description": {
+    "en": "A quiet lakeside lodge in Bahir Dar with garden terraces over Lake Tana, an Ethiopian coffee ceremony every afternoon and easy trips to the Blue Nile Falls.",
+    "am": "በጣና ሐይቅ ዳርቻ በባሕር ዳር የሚገኝ ጸጥ ያለ ሎጅ፤ በየቀኑ ከሰዓት የቡና ሥነ ሥርዓት እና ወደ ጢስ አባይ ቅርብ።"
+  },
+  "defaultLang": "en",
+  "languages": [
+    "en",
+    "am"
+  ],
+  "currency": "ETB",
+  "theme": {
+    "brand": "#1f4d3a",
+    "accent": "#c8963e",
+    "radius": "soft",
+    "headingFont": "serif",
+    "style": "classic"
+  },
+  "contact": {
+    "phone": "+251911234567",
+    "whatsapp": "251911234567",
+    "email": "stay@lakeTanalodge.example",
+    "address": {
+      "en": "Lake Tana shore road, Bahir Dar",
+      "am": "ጣና ሐይቅ ዳርቻ መንገድ፣ ባሕር ዳር"
+    },
+    "city": "Bahir Dar",
+    "mapsUrl": "https://maps.google.com/?q=Bahir+Dar",
+    "checkIn": "12:00",
+    "checkOut": "11:00"
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "tiktok": ""
+  },
+  "hero": {
+    "title": {
+      "en": "Wake up beside Lake Tana",
+      "am": "በጣና ሐይቅ ዳርቻ ይንቁ"
+    },
+    "subtitle": {
+      "en": "Garden terraces over the water, fresh injera breakfast and a coffee ceremony every afternoon.",
+      "am": "በውሃው ላይ የአትክልት ሰገነቶች፣ ትኩስ የእንጀራ ቁርስ እና በየቀኑ ከሰዓት የቡና ሥነ ሥርዓት።"
+    }
+  },
+  "about": {
+    "title": {
+      "en": "A calm base for exploring the north",
+      "am": "ሰሜንን ለመጎብኘት ጸጥ ያለ መኖሪያ"
+    },
+    "body": [
+      {
+        "en": "Family-run since 2012, we combine Ethiopian hospitality with modern comfort, right on the shore of Lake Tana.",
+        "am": "ከ2012 ጀምሮ በቤተሰብ የሚመራ፤ የኢትዮጵያን እንግዳ ተቀባይነት ከዘመናዊ ምቾት ጋር ያጣምራል።"
+      },
+      {
+        "en": "We arrange boat trips to the island monasteries, the Blue Nile Falls and airport transfers. Ask us at the front desk or on WhatsApp.",
+        "am": "ወደ ገዳማት የጀልባ ጉዞ፣ ጢስ አባይ እና የአየር ማረፊያ ትራንስፖርት እናመቻቻለን።"
+      }
+    ],
+    "highlights": [
+      {
+        "value": "24",
+        "label": {
+          "en": "Rooms",
+          "am": "ክፍሎች"
+        }
+      },
+      {
+        "value": "12+",
+        "label": {
+          "en": "Years",
+          "am": "ዓመታት"
+        }
+      },
+      {
+        "value": "4.8",
+        "label": {
+          "en": "Guest rating",
+          "am": "የእንግዳ ደረጃ"
+        }
+      }
+    ]
+  },
+  "rooms": [
+    {
+      "id": "standard",
+      "name": {
+        "en": "Garden Room",
+        "am": "የአትክልት ክፍል"
+      },
+      "description": {
+        "en": "A quiet room with a king bed, soft lighting and a rain shower, a short walk from the lake.",
+        "am": "ጸጥ ያለ ክፍል፤ ትልቅ አልጋ፣ ለስላሳ መብራት እና ሻወር።"
+      },
+      "priceFrom": 2400,
+      "capacity": 2,
+      "size": "24 m²",
+      "features": [
+        {
+          "en": "Wi-Fi",
+          "am": "ዋይፋይ"
+        },
+        {
+          "en": "Rain shower",
+          "am": "ሻወር"
+        }
+      ]
+    },
+    {
+      "id": "deluxe",
+      "name": {
+        "en": "Lake View Room",
+        "am": "የሐይቅ እይታ ክፍል"
+      },
+      "description": {
+        "en": "A private balcony facing the water. Wake up to the sunrise over Lake Tana with breakfast on the terrace.",
+        "am": "ወደ ጣና ሐይቅ የሚመለከት በረንዳ ያለው።"
+      },
+      "priceFrom": 3800,
+      "capacity": 2,
+      "size": "30 m²",
+      "features": [
+        {
+          "en": "Balcony",
+          "am": "በረንዳ"
+        },
+        {
+          "en": "Breakfast included",
+          "am": "ቁርስ ተካቷል"
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "name": {
+        "en": "Family Room",
+        "am": "የቤተሰብ ክፍል"
+      },
+      "description": {
+        "en": "Two comfortable beds with local textiles, plenty of space for a family of four, and a sitting area.",
+        "am": "ሁለት ምቹ አልጋዎች፣ ለአራት ሰው ቤተሰብ በቂ ቦታ።"
+      },
+      "priceFrom": 5200,
+      "capacity": 4,
+      "size": "42 m²",
+      "features": [
+        {
+          "en": "2 beds",
+          "am": "2 አልጋ"
+        },
+        {
+          "en": "Sitting area",
+          "am": "ሳሎን"
+        }
+      ]
+    },
+    {
+      "id": "honeymoon",
+      "name": {
+        "en": "Honeymoon Suite",
+        "am": "የጫጉላ ስዊት"
+      },
+      "description": {
+        "en": "Our most elegant suite: a spacious bedroom with a work desk, a lounge window and the quietest view in the lodge.",
+        "am": "በጣም ውብ ስዊታችን፤ ሰፊ መኝታ ክፍል እና የተረጋጋ እይታ።"
+      },
+      "priceFrom": 7800,
+      "capacity": 2,
+      "size": "55 m²",
+      "features": [
+        {
+          "en": "King bed",
+          "am": "ትልቅ አልጋ"
+        },
+        {
+          "en": "Lounge",
+          "am": "ሳሎን"
+        }
+      ]
+    }
+  ],
+  "amenities": [
+    {
+      "icon": "📶",
+      "title": {
+        "en": "Free Wi-Fi",
+        "am": "ነጻ ዋይፋይ"
+      }
+    },
+    {
+      "icon": "☕",
+      "title": {
+        "en": "Coffee ceremony daily",
+        "am": "በየቀኑ የቡና ሥነ ሥርዓት"
+      }
+    },
+    {
+      "icon": "🍽️",
+      "title": {
+        "en": "Lakeside restaurant",
+        "am": "የሐይቅ ዳርቻ ሬስቶራንት"
+      }
+    },
+    {
+      "icon": "⛵",
+      "title": {
+        "en": "Boat trips",
+        "am": "የጀልባ ጉዞ"
+      }
+    },
+    {
+      "icon": "🚐",
+      "title": {
+        "en": "Airport transfer",
+        "am": "የአየር ማረፊያ ትራንስፖርት"
+      }
+    },
+    {
+      "icon": "🅿️",
+      "title": {
+        "en": "Free parking",
+        "am": "ነጻ ማቆሚያ"
+      }
+    },
+    {
+      "icon": "🔌",
+      "title": {
+        "en": "Backup power",
+        "am": "ተጨማሪ ኃይል"
+      },
+      "text": {
+        "en": "Power and water all day.",
+        "am": "ቀኑን ሙሉ መብራት እና ውሃ።"
+      }
+    },
+    {
+      "icon": "🛡️",
+      "title": {
+        "en": "24h security",
+        "am": "የ24 ሰዓት ጥበቃ"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do I pay?",
+        "am": "እንዴት ልክፈል?"
+      },
+      "a": {
+        "en": "Cash, bank transfer or Telebirr, on arrival or in advance.",
+        "am": "በጥሬ ገንዘብ፣ በባንክ ወይም በቴሌብር።"
+      }
+    },
+    {
+      "q": {
+        "en": "Do you offer airport pickup?",
+        "am": "ከአየር ማረፊያ ይቀበላሉ?"
+      },
+      "a": {
+        "en": "Yes. Send us your flight details on WhatsApp.",
+        "am": "አዎ፣ የበረራ መረጃዎን ይላኩልን።"
+      }
+    }
+  ],
+  "sections": [
+    "about",
+    "rooms",
+    "amenities",
+    "gallery",
+    "testimonials",
+    "faq",
+    "contact"
+  ],
+  "testimonials": [
+    {
+      "name": "Sara M.",
+      "from": "Addis Ababa",
+      "rating": 5,
+      "text": {
+        "en": "Beautiful view and wonderful staff. The coffee ceremony was the highlight.",
+        "am": "ውብ እይታ እና ጥሩ ሠራተኞች። የቡና ሥነ ሥርዓቱ ምርጥ ነበር።"
+      }
+    },
+    {
+      "name": "Daniel K.",
+      "from": "Germany",
+      "rating": 5,
+      "text": {
+        "en": "The perfect place to rest after trekking the Simien mountains.",
+        "am": "ከሰሜን ተራሮች ጉዞ በኋላ ለማረፍ ተስማሚ።"
+      }
+    },
+    {
+      "name": "Hana T.",
+      "from": "Hawassa",
+      "rating": 4,
+      "text": {
+        "en": "Great breakfast, clean rooms and booking on WhatsApp was easy.",
+        "am": "ጥሩ ቁርስ፣ ንጹህ ክፍሎች፣ ቀላል ቦታ ማስያዝ።"
+      }
+    }
+  ]
+}

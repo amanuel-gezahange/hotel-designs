@@ -3,15 +3,34 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "demo": "node scripts/try.mjs demo-lodge",
+    "try": "node scripts/try.mjs",
+    "test": "npm run check",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "new-site": "tsx scripts/new-site.ts",
+    "seed": "tsx scripts/seed.ts",
+    "build-site": "tsx scripts/build-site.ts",
+    "preview": "node scripts/preview.mjs",
+    "pull": "tsx scripts/pull.ts",
+    "make": "tsx scripts/make.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.check.json",
+    "check": "npm run typecheck && npm run lint && npm run audit",
+    "audit": "tsx scripts/audit.ts",
+    "style": "tsx scripts/style.ts",
+    "themes": "tsx scripts/themes.ts",
+    "browser-audit": "node scripts/browser-audit.mjs"
   },
   "dependencies": {
+    "@libsql/client": "^0.18.0",
+    "bcryptjs": "^3.0.3",
+    "jose": "^6.2.17",
     "next": "16.4.6",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "4.3.3",
@@ -21,6 +40,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.4.6",
     "tailwindcss": "4.3.3",
+    "tsx": "^4.23.15",
     "typescript": "^5"
   }
 }

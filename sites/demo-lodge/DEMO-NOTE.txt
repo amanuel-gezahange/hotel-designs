@@ -1,0 +1,4 @@
+This is a sample hotel with real (openly licensed) photos, for trying out the designs.
+See CREDITS.txt for the photo credits. Replace the photos and details for a real client.
+
+Try it:  npm run themes -- demo-lodge

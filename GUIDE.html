@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stay Kit Guide</title>
+<style>
+  :root { --bg:#faf8f4; --card:#fff; --ink:#1c1917; --muted:#6b645c; --line:#e7e2d9; --brand:#1f4d3a; --accent:#c8963e; --code:#14231c; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120f; --card:#1e1b17; --ink:#f3eee6; --muted:#a39b8f; --line:#35302a; --brand:#7fc4a0; --accent:#e2b565; --code:#0c1a13; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:18px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 20px 80px; }
+  h1 { font-size:40px; margin:0 0 6px; color:var(--brand); }
+  .lead { font-size:20px; color:var(--muted); margin:0 0 32px; }
+  h2 { font-size:26px; margin:56px 0 16px; }
+  .step { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:22px 22px 20px; margin:16px 0; }
+  .step h3 { margin:0 0 10px; font-size:21px; display:flex; align-items:center; gap:12px; }
+  .num { flex:none; width:36px; height:36px; border-radius:50%; background:var(--brand); color:var(--bg); display:grid; place-items:center; font-weight:700; font-size:18px; }
+  .step p { margin:8px 0; }
+  code, pre { font-family: ui-monospace,"SF Mono",Menlo,monospace; }
+  pre { background:var(--code); color:#e8f3ec; padding:14px 16px; border-radius:10px; overflow-x:auto; font-size:15.5px; line-height:1.5; margin:12px 0; }
+  .note { border-left:4px solid var(--accent); background:color-mix(in srgb, var(--accent) 12%, transparent); padding:10px 14px; border-radius:0 10px 10px 0; margin:12px 0; font-size:16.5px; }
+  .names { width:100%; border-collapse:collapse; font-size:16px; margin:8px 0; }
+  .names td { padding:8px 4px; border-bottom:1px solid var(--line); vertical-align:top; }
+  .names td:first-child { font-family:ui-monospace,Menlo,monospace; color:var(--brand); white-space:nowrap; padding-right:16px; }
+  .done { background:var(--brand); color:var(--bg); border-radius:16px; padding:20px 22px; font-size:20px; font-weight:600; margin:16px 0; }
+  details { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 18px; margin:10px 0; }
+  summary { cursor:pointer; font-weight:600; }
+  details p { margin:10px 0 0; }
+  ul { padding-left:22px; } li { margin:6px 0; }
+  .small { color:var(--muted); font-size:15px; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Stay Kit</h1>
+<p class="lead">Make a hotel website in minutes. You give it the hotel's details and photos, and it gives you a finished website in English and Amharic. You run one command, then click buttons in your browser.</p>
+
+<div class="step"><h3><span class="num">1</span>Start it</h3><p>Open the terminal in the stay-kit folder and type this. Leave the terminal open while you work.</p><pre>npm run dev</pre></div>
+<div class="step"><h3><span class="num">2</span>Open it in Chrome</h3><p>Go to <b>localhost:3000/admin</b>.</p><div class="note">First time only: you will see “Create your admin account”. Type any email and a password (8+ letters). That becomes your login.</div></div>
+<div class="step"><h3><span class="num">3</span>Add a hotel</h3><p>On the <b>Clients</b> page, click <b>Import from folder</b> to bring in hotels that already exist, or click <b>+ New client</b> and fill in the hotel name and the owner's email.</p></div>
+<div class="step"><h3><span class="num">4</span>Fill in the hotel</h3><p>Click <b>Edit</b> on the hotel's row. Change the words, phone number, rooms and prices, upload the photos, then click <b>Save changes</b>.</p><div class="note">The WhatsApp number is numbers only, with the country code and no plus sign. Example: 251911234567.</div></div>
+<div class="step"><h3><span class="num">5</span>Pick a design</h3><p>Click the <b>⋯</b> button on the hotel's row, then <b>Preview all designs</b>. Use the arrow keys (or swipe on a phone) to flip through all 15 designs. When the client chooses one, open <b>Edit → Look &amp; hero</b>, pick it in the Style box and save.</p></div>
+<div class="step"><h3><span class="num">6</span>Look at the real website</h3><p>Click <b>View</b> on the hotel's row.</p></div>
+<div class="step"><h3><span class="num">7</span>Give it to the client</h3><p>Click <b>⋯</b>, then <b>Download website (zip)</b>. Wait about a minute. Send the zip to the client; they upload what is inside it to their hosting (on cheap hosting, the public_html folder).</p></div>
+<div class="done">Done.</div>
+
+<h2>If something goes wrong</h2>
+<details><summary>The page is stuck or keeps flickering</summary><p>Press Ctrl + C in the terminal, then type:</p><pre>rm -rf .next &amp;&amp; npm run dev</pre></details>
+<details><summary>“Port 3000 already in use”</summary><p>Type this, then run <code>npm run dev</code> again:</p><pre>pkill -f "next dev"</pre></details>
+<details><summary>“Too many attempts” when logging in</summary><p>Wait 10 minutes.</p></details>
+<details><summary>Download shows a red message</summary><p>Read it. It says what to fix, for example a missing field in the hotel's details.</p></details>
+<details><summary>I forgot my password</summary><p>Type this, with your own email and a new password:</p><pre>ADMIN_EMAIL=you@example.com ADMIN_PASSWORD=new-password npm run seed</pre></details>
+
+<p class="small">Optional commands (the buttons above do the same things): <code>npm run demo</code>, <code>npm run themes -- demo-lodge</code>, <code>npm run try -- hotel-name</code>, <code>npm run make -- hotel-name</code>, <code>npm run test</code>. Developer details: TECHNICAL.md.</p>
+
+</main>
+</body>
+</html>

@@ -1,0 +1,180 @@
+{
+  "name": "Sheger Addis Guest House",
+  "type": "hotel",
+  "tagline": {
+    "en": "Comfortable stay in the heart of the city",
+    "am": "በከተማው እምብርት ምቹ ማረፊያ"
+  },
+  "description": {
+    "en": "A welcoming place to stay with comfortable rooms, friendly service and easy access to the city.",
+    "am": "ምቹ ክፍሎች፣ ወዳጃዊ አገልግሎት እና ወደ ከተማው ቅርብ የሆነ ተስማሚ ማረፊያ።"
+  },
+  "defaultLang": "en",
+  "languages": [
+    "en",
+    "am"
+  ],
+  "currency": "ETB",
+  "theme": {
+    "brand": "#1f4d3a",
+    "accent": "#c8963e",
+    "radius": "soft",
+    "headingFont": "serif"
+  },
+  "contact": {
+    "phone": "251940263748",
+    "whatsapp": "251940263748",
+    "email": "info@example.com",
+    "address": {
+      "en": "Street name, City",
+      "am": "የመንገድ ስም፣ ከተማ"
+    },
+    "city": "Addis Ababa",
+    "mapsUrl": "",
+    "checkIn": "12:00",
+    "checkOut": "11:00"
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "tiktok": ""
+  },
+  "hero": {
+    "image": "/images/70f241ad-9462-4878-b371-9e22f27b0fbe.webp",
+    "title": {
+      "en": "Welcome to Your Hotel Name",
+      "am": "እንኳን ወደ ሆቴላችን በደህና መጡ"
+    },
+    "subtitle": {
+      "en": "Comfortable rooms, warm hospitality and a place you will want to come back to.",
+      "am": "ምቹ ክፍሎች፣ ሞቅ ያለ እንግዳ ተቀባይነት እና ደግመው የሚመለሱበት ቦታ።"
+    }
+  },
+  "about": {
+    "title": {
+      "en": "Your home away from home",
+      "am": "ከቤትዎ ቀጥሎ ያለ ቤት"
+    },
+    "body": [
+      {
+        "en": "Tell guests who you are and what makes your place special.",
+        "am": "እንግዶች እርስዎ ማን እንደሆኑ እና ቦታዎን ልዩ የሚያደርገውን ይንገሯቸው።"
+      }
+    ],
+    "highlights": [
+      {
+        "value": "10",
+        "label": {
+          "en": "Rooms",
+          "am": "ክፍሎች"
+        }
+      },
+      {
+        "value": "5+",
+        "label": {
+          "en": "Years",
+          "am": "ዓመታት"
+        }
+      }
+    ]
+  },
+  "rooms": [
+    {
+      "id": "standard",
+      "name": {
+        "en": "Standard Room",
+        "am": "መደበኛ ክፍል"
+      },
+      "description": {
+        "en": "A clean, comfortable room for one or two guests.",
+        "am": "ለአንድ ወይም ለሁለት እንግዶች ንጹህ እና ምቹ ክፍል።"
+      },
+      "priceFrom": 2000,
+      "capacity": 2,
+      "features": [
+        {
+          "en": "Wi-Fi",
+          "am": "ዋይፋይ"
+        },
+        {
+          "en": "Hot shower",
+          "am": "ሙቅ ውሃ"
+        }
+      ]
+    },
+    {
+      "id": "deluxe",
+      "name": {
+        "en": "Deluxe Room",
+        "am": "ዴሉክስ ክፍል"
+      },
+      "description": {
+        "en": "More space and a better view.",
+        "am": "ሰፋ ያለ ቦታ እና የተሻለ እይታ።"
+      },
+      "priceFrom": 3200,
+      "capacity": 2,
+      "features": [
+        {
+          "en": "Balcony",
+          "am": "በረንዳ"
+        },
+        {
+          "en": "Breakfast included",
+          "am": "ቁርስ ተካቷል"
+        }
+      ]
+    }
+  ],
+  "amenities": [
+    {
+      "icon": "📶",
+      "title": {
+        "en": "Free Wi-Fi",
+        "am": "ነጻ ዋይፋይ"
+      }
+    },
+    {
+      "icon": "☕",
+      "title": {
+        "en": "Coffee & breakfast",
+        "am": "ቡና እና ቁርስ"
+      }
+    },
+    {
+      "icon": "🅿️",
+      "title": {
+        "en": "Free parking",
+        "am": "ነጻ ማቆሚያ"
+      }
+    },
+    {
+      "icon": "🛡️",
+      "title": {
+        "en": "24h security",
+        "am": "የ24 ሰዓት ጥበቃ"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do I book?",
+        "am": "እንዴት ቦታ ላስይዝ?"
+      },
+      "a": {
+        "en": "Fill in the form on this page and we will confirm on WhatsApp.",
+        "am": "በዚህ ገጽ ያለውን ቅጽ ይሙሉ፤ በWhatsApp እናረጋግጥልዎታለን።"
+      }
+    }
+  ],
+  "sections": [
+    "about",
+    "rooms",
+    "amenities",
+    "gallery",
+    "testimonials",
+    "faq",
+    "contact"
+  ]
+}
